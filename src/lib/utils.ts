@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 /**
- * 
+ *
  * Xoá đi ký tự '/' đầu tiên của path
  */
 export const normalizePath = (path: string) => {

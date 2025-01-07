@@ -5,7 +5,5 @@ import envConfig from '../../config'
 
 export default function ClientComponent() {
   console.log(envConfig)
-  return (
-    <div>ClientComponent</div>
-  )
+  return <div>ClientComponent</div>
 }
