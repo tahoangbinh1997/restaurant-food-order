@@ -92,6 +92,7 @@ const request = async <Response>(
     }
   }
 
+  // Nếu trong trường hợp api truyền baseUrl là rỗng thì sẽ lấy url gọi đến API của Next.js Server
   const baseUrl = options?.baseUrl === undefined ? envConfig.NEXT_PUBLIC_API_ENDPOINT : options.baseUrl
 
   //   const fullUrl = url.startsWith("/") ? `${baseUrl}${url}` : `${baseUrl}/${url}`
